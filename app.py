@@ -148,12 +148,15 @@ historia = {
         "¡Alto ahí! Nadie pasa hacia el Castillo Real. Estamos en Alerta Roja por la invasión de los muertos vivientes", gruñe uno.
         Otro guardia agrega: "No les digas asi! Me asusta! :("
         el tercer guardia agrega: "no puede ser que nos hagan trabajar turnos de 2hs, solo nos dejan 8hs de siesta desde que está la alerta roja"
+
         
-        Te das cuenta de que llevas en el bolsillo esas **abejitas de crochet** que compraste en la feria hippie el otro día.
+        Te acordas que llevas en el bolsillo las **abejitas de crochet** que compraste en la feria hippie.
+        Pensas ''Menos mal que llevo todo encima por las dudas''
+        Pero tambien ves un Bosque y la posibilidad de eludir a los guardias.
         """,
         "opciones": [
             {"texto": "🐝 Usar las abejitas para distraerlos", "destino": "soborno_abejitas"},
-            {"texto": "🌳 Escabullirse por el Bosque de Rascadores", "destino": "bosque_rascadores"},
+            {"texto": "🌳 Escabullirse por el Bosque", "destino": "bosque_rascadores"},
         ]
     },
 
