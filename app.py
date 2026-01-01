@@ -143,7 +143,7 @@ historia = {
         "titulo": "El Reino bajo Amenaza",
         "imagen": "mundo_gatuno_alerta.jpg",
         "texto": """
-        Cruzas la puerta y caes sobre una montaña de almohadones suaves. El cielo es violeta, pero hay humo oscuro a lo lejos.
+        Cruzas la puerta y caes sobre una montaña de almohadones suaves. El cielo es precioso, y ves un castillo a lo lejos.
         
         Nala está persiguiendo mariposas, pero Kiara se eriza. Dos Gatos Guardias Siameses armados os bloquean el paso. Se ven tensos y cansados.
 
