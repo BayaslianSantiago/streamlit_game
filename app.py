@@ -94,7 +94,7 @@ historia = {
         "texto": """
         Todo comenzó una tarde de domingo. Valen estaba haciendo tiempo hasta que Santi salga de trabajar, viendo memes, tranquila y feliz, pero algo no iba bien.
 
-        Valentina pensó "hoy voy a salir como duendecillo porque vamos al Parque Navideño" . De repente, mientras se terminaba de preprar para la salida, escuchó un ruido extraño. *Woshh... ¡MIAU!*
+        Valentina pensó "hoy voy a salir como duendecillo porque vamos al Parque Navideño" . De repente, mientras se terminaba de preparar para la salida, escuchó un ruido extraño. *Woshh... ¡MIAU!*
 
         Al asomarse, vio a Nala y Kiara frente a **Un Portal Dimensional**. era un **remolino de luz azulada y brillante** girando ahí mismo!
 
@@ -111,12 +111,12 @@ historia = {
         "titulo": "¡El salto al vacío!",
         "imagen": "nala_salta_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Valentina corre, pero Nala fue más rápida. Con un maullido emocionado, Nala corre hacia la puerta y salta directamente hacia el remolino de luz ¡y desaparece!
+        Valentina corre, pero Nala fue más rápida. Con un maullido emocionado, Nala corre hacia el portal, salta directamente hacia el remolino de luz y desaparece!!
 
-        Un torbellino de colores pastel aparece en medio de la habitación. Kiara se frota contra tus piernas, maullando bajito, mirando el umbral con desconfianza. No puedes dejar a Nala sola del otro lado.
+        Kiara se frota contra tus piernas, maullando bajito, mirando el umbral con desconfianza. No puedes dejar a Nala sola del otro lado, ni a Kiara sin saber que puede aparecer del otro lado.
         """,
         "opciones": [
-            {"texto": "✨ ¡Cruzar el umbral por Nala!", "destino": "mundo_gatuno"},
+            {"texto": "✨ ¡Ir a buscar a Nala! *Agarras fuerte a Kiara y se meten al portal*", "destino": "mundo_gatuno"},
             {"texto": "🧸 Intentar atraer a Nala con un juguetito desde aquí", "destino": "final_aburrido_escoba"},
         ]
     },
@@ -126,14 +126,12 @@ historia = {
         "titulo": "Precaución ante todo",
         "imagen": "kiara_asustada_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Decides que no es buena idea correr hacia portales mágicos. Te agachas junto a Kiara y avanzan despacio hacia el portal, como dos agentes secretos.
+        Decides que no es buena idea correr hacia portales mágicos. Vas despacio junto a Kiara y avanzan despacio hacia el portal, como dos agentes secretos.
 
-        Cuando llegan al umbral, Nala ya está del otro lado, asomando solo la cabeza entre las luces. Al sentirte cerca, Nala se gira, te mira con cara de travesura máxima, ¡y se lanza de cabeza hacia el nuevo mundo!
-
-        Ahora solo quedáis tú y Kiara frente al portal en medio de la habitación.
+        Estás muy cerca del portal, tenes que tomar una decision 
         """,
         "opciones": [
-            {"texto": "😥 Suspirar y cruzar tras ella", "destino": "mundo_gatuno"},
+            {"texto": "😥 Tomar aire e ir por Nalita", "destino": "mundo_gatuno"},
             {"texto": "🚪 Fingir demencia", "destino": "final_cobarde"},
         ]
     },
@@ -143,11 +141,13 @@ historia = {
         "titulo": "El Reino bajo Amenaza",
         "imagen": "mundo_gatuno_alerta.jpg",
         "texto": """
-        Cruzas la puerta y caes sobre una montaña de almohadones suaves. El cielo es precioso, y ves un castillo a lo lejos.
+        Pasas por el portal y apareces en un mundo de fantasía, con estructuras medievales y bosques llenos de vida. El cielo es precioso, y ves un castillo a lo lejos.
         
-        Nala está persiguiendo mariposas, pero Kiara se eriza. Dos Gatos Guardias Siameses armados os bloquean el paso. Se ven tensos y cansados.
+        Nala está persiguiendo mariposas, pero Kiara está mas atenta, sobre todo a Tres Gatos Guardias Siameses armados que estan bloqueando el paso. Se ven tensos y cansados.
 
-        "¡Alto ahí! Nadie pasa hacia el Castillo Real. Estamos en Alerta Roja por la invasión de los Huesudos", gruñe uno.
+        "¡Alto ahí! Nadie pasa hacia el Castillo Real. Estamos en Alerta Roja por la invasión de los muertos vivientes", gruñe uno.
+        Otro guardia agrega: "No les digas asi! Me asusta! :("
+        el tercer guardia agrega: "no puede ser que nos hagan trabajar turnos de 2hs, solo nos dejan 8hs de siesta desde que está la alerta roja"
         
         Te das cuenta de que llevas en el bolsillo esas **abejitas de crochet** que compraste en la feria hippie el otro día.
         """,
@@ -164,9 +164,11 @@ historia = {
         "texto": """
         Sacas las abejitas de crochet y las mueves un poco. Los ojos de los guardias se dilatan al instante. Su disciplina militar se derrumba.
 
-        "¡Es... es artesanía del reino humano!", grita uno.
+        "¡Es... es artesanía del reino humano!", grita el primer guardia que hace un rato estaba enojado.
+        "Hace milenios que no hay una abeja en estos reinos, es una recreación muy valiosa! y suave!" agrega el que estaba cansado
+        "Lo necesito!" grita el tercer guardia
 
-        Lanzas las abejitas lejos. Los guardias salen corriendo tras ellas, rodando felices por el suelo. El camino está libre. Nala, Kiara y tú corréis hacia el Castillo.
+        Lanzas las abejitas lejos. Los guardias salen corriendo tras ellas, rodando felices por el suelo. El camino está libre. Nala, Kiara y vos corren hacia el Castillo.
         """,
         "opciones": [
             {"texto": "🏰 Entrar al Castillo de la Reina", "destino": "revelacion_reina"},
@@ -178,9 +180,9 @@ historia = {
         "titulo": "Sigilo Felino",
         "imagen": "bosque_rascadores.jpg",
         "texto": """
-        Deciden rodear a los guardias por el bosque. Los árboles son rascadores gigantes. Kiara guía el camino con sigilo experto, mientras tú tienes que cargar a Nala para que no haga ruido.
+        Deciden rodear a los guardias por el bosque(sus armaduras parecen algo pesadas y no se les ve con muchas ganas de perseguilos). Los árboles son gigantes. Kiara guía el camino con sigilo experto, mientras vos tenes que cargar a Nala para que no haga quilombo.
 
-        Desde la espesura, ves el Castillo. No hay tiempo que perder, algo oscuro se acerca desde el norte.
+        Desde la espesura, ves el Castillo. Necesitas una explicación para todo esto.
         """,
         "opciones": [
             {"texto": "🏰 Colarse en el Castillo", "destino": "revelacion_reina"},
@@ -189,14 +191,21 @@ historia = {
 
     # --- LA REVELACIÓN ---
     "revelacion_reina": {
-        "titulo": "La Profecía de la Karen",
+        "titulo": "La Profecía",
         "imagen": "reina_gata.jpg",
         "texto": """
-        Entráis al Salón del Trono. La Reina Gata (una persa blanca muy elegante) no parece sorprendida.
+        Entráis al Salón del Trono. La Reina Michi no parece sorprendida.
 
-        "Te estábamos esperando, Valentina", dice la Reina. "No entraste por accidente. Nala y Kiara abrieron el portal de tu habitación porque tú eres la Única."
+        "Te estábamos esperando, Valentina", dice la Reina. "No entraste por accidente. Nala y Kiara abrieron el portal de tu habitación porque vos sos la elegída."
 
-        "El **Rey Esqueleto** ha abierto una grieta desde el Inframundo. Quiere robar nuestra reserva infinita de hierba gatera y usar a nuestros michis como soldados zombies. Solo una Humana puede detenerlo."
+        "El **Rey Esqueleto** ha abierto una grieta desde el Inframundo. Quiere robar nuestra reserva infinita de hierba gatera y usar a nuestros michis como soldados zombies. Solo vos podes puede detenerlo."
+
+        "El anillo de Gatitos que conseguiste en el Mundo Humano te eligio para esta cruzada, los gatos vemos todo lo que hacen por nosotros los humanos y vos
+        sos la unica persona con el coraje y la voluntad de ayudarnos, con la fuerza suficiente en su espiritu para manejar el poder de los gatitos.
+        Tu alma está conectada con este mundo por lo buena que fuiste con tus gatas y con todos gatos que se cruzaron en tu camino."
+
+        No dudas ni un segundo, tu alma ya tomó una decisión antes de llegar a tu mente.
+        
         """,
         "opciones": [
             {"texto": "⚔️ ¡Acepto mi destino! ¡Por los michis!", "destino": "ataque_esqueleto"},
@@ -205,45 +214,51 @@ historia = {
 
     # --- EL CLÍMAX (Elección de Clase) ---
     "ataque_esqueleto": {
-        "titulo": "Elige tu Destino",
+        "titulo": "La forma de tu Alma",
         "imagen": "rey_esqueleto.jpg",
         "texto": """
-        ¡BOOOM! La pared explota. El **Rey Esqueleto** entra con su ejército de huesos. "¡Entregadme a los gatitos!", ruge.
+        Un sonido que parece salido del mismo infierno emerge de un portal que estaba cerca, un portal que rompe totalmente con la apariencia amigable y espiritual del castillo y del reino.
+        El **Rey Esqueleto** entra con su armadura de caballero negro y su espada consechadora de incontables vidas, hoy viene por los michis. 
+        "ⵅⴹⵔⵛⵁⵃⵜⵣⵎⴿ" Ruge en un idioma extraño mas antiguo que cualquier reino.
+        Pero no hay que entender lo que dice para saber lo que quiere; conquistar y destruir.
 
-        El tiempo se congela. La Reina Gata te toca la frente con su pata.
-        "Valentina, el poder del Reino responde a tu alma. ¿Qué forma tomarás para defendernos?"
+        El tiempo se congela. La Reina Gata se acerca flotando, te mira a los ojos y te toca la frente con su patita.
+        "Valentina, el poder del Reino responde a tu alma, y este se va a manifestar en la forma que vos le des."
         """,
         "opciones": [
-            {"texto": "🔮 Maga Guerrera Gatita", "destino": "batalla_maga"},
-            {"texto": "⚔️ Espadachín Guerrera Gatuna", "destino": "batalla_espadachin"},
-            {"texto": "🧚‍♀️ Hada de la Naturaleza", "destino": "batalla_hada"},
+            {"texto": "🔮 Hechicera inmortal", "destino": "batalla_maga"},
+            {"texto": "⚔️ Guerrera Defensora de los Michis", "destino": "batalla_espadachin"},
+            {"texto": "🧚‍♀️ Hada de la Naturaleza del Reino", "destino": "batalla_hada"},
         ]
     },
 
     # --- BATALLA: MAGA ---
     "batalla_maga": {
-        "titulo": "La Maga Suprema",
+        "titulo": "La aparición de la Hechicera",
         "imagen": "valen_maga_accion.jpg",
         "texto": """
-        ¡FUUUSH! Una túnica violeta con estrellas brillantes te envuelve. En tu mano aparece un Báculo con una joya en forma de patita.
+        ¡FUUUSH! Una túnica roja con runas antiguas te envuelve. Tus manos sienten el poder de los hechizos, de la creacion y de la destrucción.
 
-        Cargas tu magia y lanzas el hechizo: **"¡Lluvia de Meteoritos de Lana!"**.
+        Cargas con toda tu magia y lanzas el hechizo: **"¡Aniquilación total de los no-muertos!"**.
 
-        Bolas de fuego rosa caen del cielo hacia el **Rey Esqueleto**. ¡Sus huesos empiezan a brillar y a bailar sin control!
+        De tus manos salen fuegos antiguos y runas que van hacia el **Rey Esqueleto**. ¡Sus huesos se empiezan a incendiar para despues desvanecerse!
         """,
         "opciones": [
-            {"texto": "✨ ¡Ver el resultado de tu magia!", "destino": "victoria_maga"},
+            {"texto": "✨ ¡Se terminó tu reinado, maldito zombie esqueleto!", "destino": "victoria_maga"},
         ]
     },
     
     # --- VICTORIA: MAGA ---
     "victoria_maga": {
-        "titulo": "Victoria Mágica",
+        "titulo": "La Hechicera Suprema",
         "imagen": "victoria_maga_esqueleto.jpg",
         "texto": """
-        El **Rey Esqueleto** no puede soportar el ritmo del hechizo bailongo. 
+        El **Rey Esqueleto** no fue rival contra la hechiceria y la magia que ya llevabas en tu alma, potenciado por el reino Michi. 
         
-        ¡CRACK! ¡PUM! Explota en una nube de purpurina, confeti y huesitos inofensivos que caen al suelo. ¡La magia ha triunfado! Los gatos del reino maúllan tu nombre.
+        Los gatos del reino maúllan tu nombre.
+
+        Nala y Kiara te miran con orgullo, sabiendo que nunca dudaron ni un segundo que ibas a salvar a su reino.
+        
         """,
         "opciones": [
             {"texto": "💤 La misión ha terminado...", "destino": "despertar_real"},
@@ -252,15 +267,16 @@ historia = {
 
     # --- BATALLA: ESPADACHÍN ---
     "batalla_espadachin": {
-        "titulo": "La Espadachín Veloz",
+        "titulo": "La Espada que lucha por la Justicia",
         "imagen": "valen_espadachin_accion.jpg",
         "texto": """
-        ¡ZAS! Apareces con una armadura ligera y plateada con orejas de gato en el casco. Empuñas la **Katana del Ronroneo Eterno**.
+        Apareces con una armadura plateada. Empuñas la **Espada de la Justicia Eterna**.
 
-        Te mueves más rápido que Nala persiguiendo un puntero láser. Te lanzas hacia el **Rey Esqueleto** para dar el golpe de gracia a su corona.
+        Sentis tu fueza y destreza potenciada por el anillo gatito, en tu corazón estas segura de la victoria ya que el universo va a guiar cada paso y cada golpe.
+        Te lanzas hacia el **Rey Esqueleto** para defender al Mundo Michi y a todos los Mundos de los animales que cuentan con vos en la batalla.
         """,
         "opciones": [
-            {"texto": "⚔️ ¡Ver el golpe final!", "destino": "victoria_espadachin"},
+            {"texto": "⚔️ ¡Ataque Combinado Definitivo!", "destino": "victoria_espadachin"},
         ]
     },
 
@@ -269,9 +285,9 @@ historia = {
         "titulo": "Corte Perfecto",
         "imagen": "victoria_espada_esqueleto.jpg",
         "texto": """
-        Con una precisión increíble, tu katana corta la corona de huesos del Rey. Sin su corona, su poder se desvanece.
+        Con una precisión increíble y una fuerza divina, tu espada rompe cada hueso del **Rey Esqueleto**. y purifica la maldida pura que hay cada trozo de sus huesos.
         
-        El **Rey Esqueleto** se desarma y cae al suelo, convirtiéndose en una pila de huesos tristes. ¡Tu velocidad salvó el reino!
+        Salvaste al Reino, y los Michis cuentan con la Guerrera mas fuerte y Elegante de todos los Mundos.
         """,
         "opciones": [
             {"texto": "💤 La misión ha terminado...", "destino": "despertar_real"},
@@ -280,26 +296,28 @@ historia = {
 
     # --- BATALLA: HADA ---
     "batalla_hada": {
-        "titulo": "El Hada del Bosque Gatuno",
+        "titulo": "Hada del Bosque",
         "imagen": "valen_hada_accion.jpg",
         "texto": """
-        ¡PLING! Te crecen unas alas transparentes y brillantes. Tu ropa se convierte en pétalos de flores silvestres.
+        Te crecen unas alas transparentes y brillantes. Tu ropa se convierte en pétalos de flores.
+
+        Tu amor por la naturaleza y lo que representa en el universo; se unió junto a la fuerza del anillo gatito.
 
         Alzas las manos y el suelo tiembla. Invocas el poder de la naturaleza para atrapar al **Rey Esqueleto**.
         """,
         "opciones": [
-            {"texto": "🌿 ¡Ver el poder de la naturaleza!", "destino": "victoria_hada"},
+            {"texto": "🌿 Acabemos con esto, quiero ir a merendar con mis hijas", "destino": "victoria_hada"},
         ]
     },
 
      # --- VICTORIA: HADA ---
     "victoria_hada": {
-        "titulo": "La Prisión Floral",
+        "titulo": "Prisión Floral!",
         "imagen": "victoria_hada_esqueleto.jpg",
         "texto": """
-        **Enredaderas de Hierba Gatera Gigante** brotan del suelo y atrapan al Rey.
+        **Enredaderas con espinas** brotan del suelo y atrapan al Rey.
 
-        "¡Noooo, soy alérgico al polen del amor!", grita mientras las flores lo envuelven completamente, purificando su maldad y convirtiéndolo en un arbusto decorativo muy bonito.
+        El grita mientras las enredaderas lo envuelven completamente, destruyendo su maldad y convirtiéndolo en un bonito cactus.
         """,
         "opciones": [
             {"texto": "💤 La misión ha terminado...", "destino": "despertar_real"},
@@ -311,13 +329,12 @@ historia = {
         "titulo": "Un Despertar... ¿Mágico?",
         "imagen": "despertar_cama.jpg",
         "texto": """
-        Con el enemigo derrotado, todo se vuelve blanco. Abres los ojos. Estás en tu cama. Es lunes por la mañana.
+        Con el enemigo derrotado, todo se vuelve blanco. Abres los ojos. Estás en tu cama, Aun no te levantaste y Santi sale del trabajo en unas horas.
 
         "¿Fue todo un sueño?", piensas. Nala y Kiara duermen a tus pies, ronroneando tranquilas.
 
-        Te levantas y sacudes la almohada. Algo cae al suelo. Es una de las **abejitas de crochet**... pero tiene un pequeño mordisco de gato y brilla con una luz tenue y rosada.
-
-        Sonríes. El reino está a salvo gracias a ti.
+        Te levantas y sacudes la almohada. Algo cae al suelo. Es una bolsa de Hierva gatuna de alta calidad, con tu anillo de gatito que al caer refleja la luz del sol y brilla por un momento,
+        Sonreis porque sabes que el reino está a salvo.
         """,
         "es_final": True
     },
@@ -327,9 +344,9 @@ historia = {
         "titulo": "Final: La Realidad Decepcionante",
         "imagen": "final_escoba.jpg",
         "texto": """
-        Intentas pescar a Nala lanzando un juguete a través del umbral, pero rebota. La luz se apaga de golpe y el portal desaparece. 
+        Intentas sacar a Nala lanzando un juguete a través del portal, pero rebota. La luz se apaga de golpe y el portal desaparece. 
         
-        Nala aparece caminando desde el baño como si nada. Todo fue una alucinación por ver TikToks hasta tan tarde.
+        Nala aparece caminando desde el baño como si nada. Todo fue una alucinación por ver tantos memes hasta tan tarde.
         """,
         "es_final": True
     },
