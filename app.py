@@ -89,7 +89,7 @@ def formatear_texto(texto):
 historia = {
     # --- ESCENA 1: INICIO (Modificada) ---
     "inicio": {
-        "titulo": "Una tarde tranquila... ¿o no?",
+        "titulo": "Una tarde cualquiera",
         "imagen": "inicio_habitacion.jpg", # Nombre cambiado para ser más genérico
         "texto": """
         Todo comenzó una tarde de domingo. Valen estaba haciendo tiempo hasta que Santi salga de trabajar, viendo memes, tranquila y feliz, pero algo no iba bien.
