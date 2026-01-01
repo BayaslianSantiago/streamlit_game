@@ -87,54 +87,54 @@ def formatear_texto(texto):
 
 # --- DEFINICIÓN DE LA HISTORIA COMPLETA ---
 historia = {
-    # --- ESCENA 1: INICIO ---
+    # --- ESCENA 1: INICIO (Modificada) ---
     "inicio": {
         "titulo": "Una tarde tranquila... ¿o no?",
-        "imagen": "inicio_salon.jpg",
+        "imagen": "inicio_habitacion.jpg", # Nombre cambiado para ser más genérico
         "texto": """
         Todo comenzó una tarde de domingo. Valentina estaba en la cama viendo memes en TikTok, tranquila y feliz, pero algo no iba bien.
 
-        La casa estaba sospechosamente silenciosa. De repente, escuchó un ruido extraño proveniente de la habitación de al lado. *Prrr... CRASH!*
+        La casa estaba sospechosamente silenciosa. De repente, escuchó un ruido extraño. *Prrr... ¡MIAU!*
 
-        Al asomarse, vio a Nala y Kiara frente al armario. La puerta estaba entreabierta y salía una extraña luz azulada desde dentro.
+        Al asomarse, vio a Nala y Kiara frente a **la puerta de salida de la habitación**. Pero la puerta no daba al pasillo. ¡Estaba abierta de par en par y en lugar de la casa, había un **remolino de luz azulada y brillante** girando ahí mismo!
 
-        Nala parecía hipnotizada por la luz y estaba a punto de meter la pata. Kiara te miraba con sus ojos enormes y azulitos, como diciendo "¡Mamá, haz algo, esto no es normal!".
+        Nala parecía hipnotizada por la luz y estaba con una patita levantada, lista para cruzar el umbral. Kiara te miraba con sus ojos enormes y azulitos, como diciendo "¡Mamá, la puerta se rompió!".
         """,
         "opciones": [
-            {"texto": "🏃‍♀️ Correr para agarrar a Nala", "destino": "nala_salta"},
+            {"texto": "🏃‍♀️ Correr a la puerta para agarrar a Nala", "destino": "nala_salta"},
             {"texto": "🐾 Acercarse cautelosamente con Kiara", "destino": "investigacion_cauta"},
         ]
     },
 
-    # --- ESCENA 2A ---
+    # --- ESCENA 2A (Modificada) ---
     "nala_salta": {
         "titulo": "¡El salto al vacío!",
-        "imagen": "nala_salta_armario.jpg",
+        "imagen": "nala_salta_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Valentina corre descalza, pero Nala es más rápida. Con un maullido emocionado (ese que hace cuando ve una mosca), Nala salta directamente hacia la luz azul ¡y desaparece!
+        Valentina corre descalza, pero Nala es más rápida. Con un maullido emocionado (ese que hace cuando ve una mosca), Nala corre hacia la puerta y salta directamente hacia el remolino de luz ¡y desaparece!
 
-        El armario ya no muestra tu ropa, sino un torbellino de colores pastel. Kiara se frota contra tus piernas, maullando bajito. No puedes dejar a Nala sola ahí dentro.
+        **La puerta de tu habitación ya no muestra el pasillo de tu casa**, sino un torbellino de colores pastel. Kiara se frota contra tus piernas, maullando bajito, mirando el umbral con desconfianza. No puedes dejar a Nala sola del otro lado.
         """,
         "opciones": [
-            {"texto": "✨ ¡Saltar por Nala sin pensarlo!", "destino": "mundo_gatuno"},
-            {"texto": "🧸 Intentar pescar a Nala con un juguetito", "destino": "final_aburrido_escoba"},
+            {"texto": "✨ ¡Cruzar el umbral por Nala!", "destino": "mundo_gatuno"},
+            {"texto": "🧸 Intentar pescar a Nala con un juguetito desde aquí", "destino": "final_aburrido_escoba"},
         ]
     },
 
-    # --- ESCENA 2B ---
+    # --- ESCENA 2B (Modificada) ---
     "investigacion_cauta": {
         "titulo": "Precaución ante todo",
-        "imagen": "kiara_asustada_armario.jpg",
+        "imagen": "kiara_asustada_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Decides que no es buena idea correr hacia luces extrañas. Te agachas junto a Kiara y avanzan despacio, como dos agentes secretos.
+        Decides que no es buena idea correr hacia puertas mágicas. Te agachas junto a Kiara y avanzan despacio hacia el marco de la puerta, como dos agentes secretos.
 
-        Cuando llegan al armario, Nala ya ha metido la cabeza. Al sentirte cerca, Nala se gira, te mira con cara de travesura máxima, te guiña un ojo, ¡y se lanza de cabeza hacia la luz!
+        Cuando llegan al umbral, Nala ya está del otro lado, asomando solo la cabeza entre las luces. Al sentirte cerca, Nala se gira, te mira con cara de travesura máxima, te guiña un ojo, ¡y se lanza de cabeza hacia el nuevo mundo!
 
-        Ahora solo quedáis tú y Kiara frente al portal mágico.
+        Ahora solo quedáis tú y Kiara frente al portal que reemplazó tu puerta.
         """,
         "opciones": [
-            {"texto": "😥 Suspirar y entrar tras ella", "destino": "mundo_gatuno"},
-            {"texto": "🚪 Cerrar la puerta y fingir demencia", "destino": "final_cobarde"},
+            {"texto": "😥 Suspirar y cruzar tras ella", "destino": "mundo_gatuno"},
+            {"texto": "🚪 Cerrar la puerta de golpe y fingir demencia", "destino": "final_cobarde"},
         ]
     },
 
@@ -143,7 +143,7 @@ historia = {
         "titulo": "El Reino bajo Amenaza",
         "imagen": "mundo_gatuno_alerta.jpg",
         "texto": """
-        Caes sobre una montaña de almohadones suaves. El cielo es violeta, pero hay humo oscuro a lo lejos.
+        Cruzas la puerta y caes sobre una montaña de almohadones suaves. El cielo es violeta, pero hay humo oscuro a lo lejos.
         
         Nala está persiguiendo mariposas, pero Kiara se eriza. Dos Gatos Guardias Siameses armados os bloquean el paso. Se ven tensos y cansados.
 
@@ -194,7 +194,7 @@ historia = {
         "texto": """
         Entráis al Salón del Trono. La Reina Gata (una persa blanca muy elegante) no parece sorprendida.
 
-        "Te estábamos esperando, Valentina", dice la Reina. "No entraste por accidente. Nala y Kiara abrieron el portal porque tú eres la Única."
+        "Te estábamos esperando, Valentina", dice la Reina. "No entraste por accidente. Nala y Kiara abrieron el portal de tu habitación porque tú eres la Única."
 
         "El **Rey Esqueleto** ha abierto una grieta desde el Inframundo. Quiere robar nuestra reserva infinita de hierba gatera y usar a nuestros michis como soldados zombies. Solo una Humana puede detenerlo."
         """,
@@ -223,7 +223,7 @@ historia = {
     # --- BATALLA: MAGA ---
     "batalla_maga": {
         "titulo": "La Maga Suprema",
-        "imagen": "valen_maga_accion.jpg", # Imagen de ella lanzando el hechizo
+        "imagen": "valen_maga_accion.jpg",
         "texto": """
         ¡FUUUSH! Una túnica violeta con estrellas brillantes te envuelve. En tu mano aparece un Báculo con una joya en forma de patita.
 
@@ -236,10 +236,10 @@ historia = {
         ]
     },
     
-    # --- VICTORIA: MAGA (NUEVA ESCENA) ---
+    # --- VICTORIA: MAGA ---
     "victoria_maga": {
         "titulo": "Victoria Mágica",
-        "imagen": "victoria_maga_esqueleto.jpg", # Imagen del esqueleto derrotado por magia
+        "imagen": "victoria_maga_esqueleto.jpg",
         "texto": """
         El **Rey Esqueleto** no puede soportar el ritmo del hechizo bailongo. 
         
@@ -253,7 +253,7 @@ historia = {
     # --- BATALLA: ESPADACHÍN ---
     "batalla_espadachin": {
         "titulo": "La Espadachín Veloz",
-        "imagen": "valen_espadachin_accion.jpg", # Imagen de ella atacando con espada
+        "imagen": "valen_espadachin_accion.jpg",
         "texto": """
         ¡ZAS! Apareces con una armadura ligera y plateada con orejas de gato en el casco. Empuñas la **Katana del Ronroneo Eterno**.
 
@@ -264,10 +264,10 @@ historia = {
         ]
     },
 
-    # --- VICTORIA: ESPADACHÍN (NUEVA ESCENA) ---
+    # --- VICTORIA: ESPADACHÍN ---
     "victoria_espadachin": {
         "titulo": "Corte Perfecto",
-        "imagen": "victoria_espada_esqueleto.jpg", # Imagen del esqueleto derrotado por espada
+        "imagen": "victoria_espada_esqueleto.jpg",
         "texto": """
         Con una precisión increíble, tu katana corta la corona de huesos del Rey. Sin su corona, su poder se desvanece.
         
@@ -281,7 +281,7 @@ historia = {
     # --- BATALLA: HADA ---
     "batalla_hada": {
         "titulo": "El Hada del Bosque Gatuno",
-        "imagen": "valen_hada_accion.jpg", # Imagen de ella usando poderes naturales
+        "imagen": "valen_hada_accion.jpg",
         "texto": """
         ¡PLING! Te crecen unas alas transparentes y brillantes. Tu ropa se convierte en pétalos de flores silvestres.
 
@@ -292,10 +292,10 @@ historia = {
         ]
     },
 
-     # --- VICTORIA: HADA (NUEVA ESCENA) ---
+     # --- VICTORIA: HADA ---
     "victoria_hada": {
         "titulo": "La Prisión Floral",
-        "imagen": "victoria_hada_esqueleto.jpg", # Imagen del esqueleto derrotado por plantas
+        "imagen": "victoria_hada_esqueleto.jpg",
         "texto": """
         **Enredaderas de Hierba Gatera Gigante** brotan del suelo y atrapan al Rey.
 
@@ -322,12 +322,14 @@ historia = {
         "es_final": True
     },
 
-    # --- FINALES FALLIDOS ---
+    # --- FINALES FALLIDOS (Modificados) ---
     "final_aburrido_escoba": {
         "titulo": "Final: La Realidad Decepcionante",
         "imagen": "final_escoba.jpg",
         "texto": """
-        Intentas pescar a Nala, pero solo sacas una pelusa gigante. La luz se apaga. Nala sale de debajo de la cama. Todo fue una alucinación por ver TikToks hasta tan tarde.
+        Intentas pescar a Nala lanzando un juguete a través del umbral, pero rebota. La luz se apaga de golpe y la puerta vuelve a mostrar el pasillo aburrido de siempre. 
+        
+        Nala aparece caminando desde el baño como si nada. Todo fue una alucinación por ver TikToks hasta tan tarde.
         """,
         "es_final": True
     },
@@ -335,7 +337,9 @@ historia = {
         "titulo": "Final: La Duda Eterna",
         "imagen": "final_te_sofa.jpg",
         "texto": """
-        Cierras la puerta. Mejor no saber. Te vas a dormir, pero siempre te preguntarás por qué tus gatas te miran a veces como si fueras una reina que renunció a su corona.
+        Cierras la puerta de la habitación de golpe. Te apoyas contra ella, con el corazón a mil. 
+        
+        Mejor no saber qué había del otro lado. Te vas a dormir, pero siempre te preguntarás por qué tus gatas te miran a veces como si fueras una reina que renunció a su corona.
         """,
         "es_final": True
     },
@@ -361,14 +365,12 @@ escena_datos = historia.get(escena_id, {
 st.title(f"{escena_datos['titulo']}")
 
 # --- CÓDIGO DE IMÁGENES ---
-# Intentamos obtener la imagen de la escena actual. Si no tiene, no pasa nada.
 image_path = escena_datos.get("imagen")
-
 if image_path:
     if os.path.exists(image_path):
         st.image(image_path, use_column_width=True)
     else:
-        # Mensaje de ayuda discreto (puedes quitarlo cuando termines)
+        # Mensaje de ayuda discreto
         st.info(f"📸 Falta la imagen: {image_path}")
 
 st.markdown(formatear_texto(escena_datos['texto']), unsafe_allow_html=True)
@@ -381,7 +383,7 @@ if escena_datos.get("es_final"):
         cambiar_escena("inicio")
         st.rerun()
 else:
-    # Títulos especiales según el momento
+    # Títulos especiales
     if escena_id == "ataque_esqueleto":
         st.subheader("✨ ¡ELIGE TU PODER! ✨")
     elif "batalla_" in escena_id:
