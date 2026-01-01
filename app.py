@@ -326,7 +326,7 @@ historia = {
 
     # --- EL FINAL ---
     "despertar_real": {
-        "titulo": "Un Despertar... ¿Mágico?",
+        "titulo": "Un Despertar...",
         "imagen": "despertar_cama.jpg",
         "texto": """
         Con el enemigo derrotado, todo se vuelve blanco. Abres los ojos. Estás en tu cama, Aun no te levantaste y Santi sale del trabajo en unas horas.
@@ -335,13 +335,16 @@ historia = {
 
         Te levantas y sacudes la almohada. Algo cae al suelo. Es una bolsa de Hierva gatuna de alta calidad, con tu anillo de gatito que al caer refleja la luz del sol y brilla por un momento,
         Sonreis porque sabes que el reino está a salvo.
+
+        Agarras tu celular y le mandas un audio a Santi contandole todo tu sueño con gran detalle.
+        
         """,
         "es_final": True
     },
 
     # --- FINALES FALLIDOS (Modificados) ---
     "final_aburrido_escoba": {
-        "titulo": "Final: La Realidad Decepcionante",
+        "titulo": "Final: La Realidad",
         "imagen": "final_escoba.jpg",
         "texto": """
         Intentas sacar a Nala lanzando un juguete a través del portal, pero rebota. La luz se apaga de golpe y el portal desaparece. 
@@ -351,12 +354,11 @@ historia = {
         "es_final": True
     },
     "final_cobarde": {
-        "titulo": "Final: La Duda Eterna",
+        "titulo": "Final: raro",
         "imagen": "final_te_sofa.jpg",
         "texto": """
-        Elegis ignorar todo pensando que es un mal viaje y nada mas. El corazón a mil pero decidis ir a pedir ayuda alguien en tu casa. 
-        
-        Mejor no saber qué había del otro lado. Te vas a dormir, pero siempre te preguntarás por qué tus gatas te miran a veces como si fueras una reina que renunció a su corona.
+        Elegis ignorar todo pensando que es un mal viaje y nada mas. que estas mareada o que imaginas cosas. 
+        Ves a Nala salir del baño y te quedas tranquila, volves a ver el portal y ya no hay nada. solo fue un momento raro.
         """,
         "es_final": True
     },
