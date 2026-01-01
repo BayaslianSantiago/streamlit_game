@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#C9A7EB"    # Violeta pastel para los botones y acentos
+backgroundColor = "#FCE4EC" # Rosa pastel muy clarito para el fondo principal
+secondaryBackgroundColor = "#F3E5F5" # Un violeta casi blanco para barras laterales
+textColor = "#5D4E6D"       # Un tono violeta oscuro/gris para el texto, más suave que el negro
+font = "sans serif"
