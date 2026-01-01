@@ -201,7 +201,7 @@ historia = {
 
         "Te estábamos esperando, Valentina", dice la Reina. "No entraste por accidente. Nala y Kiara abrieron el portal de tu habitación porque vos sos la elegída."
 
-        "El **Rey Esqueleto** ha abierto una grieta desde el Inframundo. Quiere robar nuestra reserva infinita de hierba gatera y usar a nuestros michis como soldados zombies. Solo vos podes puede detenerlo."
+        "El **Rey Esqueleto** ha abierto una grieta desde el Inframundo. Quiere robar nuestra reserva infinita de hierba gatera y usar a nuestros michis como soldados zombies. Solo vos podes detenerlo."
 
         "El anillo de Gatitos que conseguiste en el Mundo Humano te eligio para esta cruzada, los gatos vemos todo lo que hacen por nosotros los humanos y vos
         sos la unica persona con el coraje y la voluntad de ayudarnos, con la fuerza suficiente en su espiritu para manejar el poder de los gatitos.
