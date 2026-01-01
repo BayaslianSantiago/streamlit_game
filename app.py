@@ -188,7 +188,7 @@ historia = {
         Entre los arboles, ves un camino hacia un Castillo gigante. Necesitas una explicación para todo esto.
         """,
         "opciones": [
-            {"texto": "🏰 Colarse en el Castillo", "destino": "revelacion_reina"},
+            {"texto": "🏰 Entrar en el Castillo", "destino": "revelacion_reina"},
         ]
     },
 
