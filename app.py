@@ -334,9 +334,9 @@ historia = {
         "texto": """
         Con el enemigo derrotado, todo se vuelve blanco. Abres los ojos. Estás en tu cama, Aun no te levantaste y Santi sale del trabajo en unas horas.
 
-        "¿Fue todo un sueño?", piensas. Nala y Kiara duermen a tus pies, ronroneando tranquilas.
+        "¿Fue un sueño?", pensas. Nala y Kiara duermen a tus pies, ronroneando tranquilas.
 
-        Te levantas y sacudes la almohada. Algo cae al suelo. Es una bolsa de Hierva gatuna de alta calidad, con tu anillo de gatito que al caer refleja la luz del sol y brilla por un momento,
+        Te levantas y sacudís la almohada. Algo cae al suelo. Es una bolsa de Hierva gatuna de alta calidad, con tu anillo de gatito que al caer refleja la luz del sol y brilla por un momento,
         Sonreis porque sabes que el reino está a salvo.
 
         Agarras tu celular y le mandas un audio a Santi contandole todo tu sueño con gran detalle.
