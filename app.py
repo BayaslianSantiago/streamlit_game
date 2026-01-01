@@ -92,16 +92,16 @@ historia = {
         "titulo": "Una tarde tranquila... ¿o no?",
         "imagen": "inicio_habitacion.jpg", # Nombre cambiado para ser más genérico
         "texto": """
-        Todo comenzó una tarde de domingo. Valentina estaba en la cama viendo memes en TikTok, tranquila y feliz, pero algo no iba bien.
+        Todo comenzó una tarde de domingo. Valen estaba haciendo tiempo hasta que Santi salga de trabajar, viendo memes, tranquila y feliz, pero algo no iba bien.
 
-        La casa estaba sospechosamente silenciosa. De repente, escuchó un ruido extraño. *Prrr... ¡MIAU!*
+        Valentina pensó "hoy voy a salir como duendecillo porque vamos al Parque Navideño" . De repente, mientras se terminaba de preprar para la salida, escuchó un ruido extraño. *Woshh... ¡MIAU!*
 
-        Al asomarse, vio a Nala y Kiara frente a **la puerta de salida de la habitación**. Pero la puerta no daba al pasillo. ¡Estaba abierta de par en par y en lugar de la casa, había un **remolino de luz azulada y brillante** girando ahí mismo!
+        Al asomarse, vio a Nala y Kiara frente a **Un Portal Dimensional**. era un **remolino de luz azulada y brillante** girando ahí mismo!
 
-        Nala parecía hipnotizada por la luz y estaba con una patita levantada, lista para cruzar el umbral. Kiara te miraba con sus ojos enormes y azulitos, como diciendo "¡Mamá, la puerta se rompió!".
+        Nala parecía hipnotizada por la luz y estaba con una patita levantada, lista para cruzar el umbral. Kiara te miraba con sus ojos enormes y azulitos, como diciendo "¡Mamá, esto no es normal!".
         """,
         "opciones": [
-            {"texto": "🏃‍♀️ Correr a la puerta para agarrar a Nala", "destino": "nala_salta"},
+            {"texto": "🏃‍♀️ Correr para agarrar a Nala", "destino": "nala_salta"},
             {"texto": "🐾 Acercarse cautelosamente con Kiara", "destino": "investigacion_cauta"},
         ]
     },
@@ -111,13 +111,13 @@ historia = {
         "titulo": "¡El salto al vacío!",
         "imagen": "nala_salta_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Valentina corre descalza, pero Nala es más rápida. Con un maullido emocionado (ese que hace cuando ve una mosca), Nala corre hacia la puerta y salta directamente hacia el remolino de luz ¡y desaparece!
+        Valentina corre, pero Nala fue más rápida. Con un maullido emocionado, Nala corre hacia la puerta y salta directamente hacia el remolino de luz ¡y desaparece!
 
-        **La puerta de tu habitación ya no muestra el pasillo de tu casa**, sino un torbellino de colores pastel. Kiara se frota contra tus piernas, maullando bajito, mirando el umbral con desconfianza. No puedes dejar a Nala sola del otro lado.
+        Un torbellino de colores pastel aparece en medio de la habitación. Kiara se frota contra tus piernas, maullando bajito, mirando el umbral con desconfianza. No puedes dejar a Nala sola del otro lado.
         """,
         "opciones": [
             {"texto": "✨ ¡Cruzar el umbral por Nala!", "destino": "mundo_gatuno"},
-            {"texto": "🧸 Intentar pescar a Nala con un juguetito desde aquí", "destino": "final_aburrido_escoba"},
+            {"texto": "🧸 Intentar atraer a Nala con un juguetito desde aquí", "destino": "final_aburrido_escoba"},
         ]
     },
 
@@ -126,15 +126,15 @@ historia = {
         "titulo": "Precaución ante todo",
         "imagen": "kiara_asustada_puerta.jpg", # Nombre cambiado: armario -> puerta
         "texto": """
-        Decides que no es buena idea correr hacia puertas mágicas. Te agachas junto a Kiara y avanzan despacio hacia el marco de la puerta, como dos agentes secretos.
+        Decides que no es buena idea correr hacia portales mágicos. Te agachas junto a Kiara y avanzan despacio hacia el portal, como dos agentes secretos.
 
-        Cuando llegan al umbral, Nala ya está del otro lado, asomando solo la cabeza entre las luces. Al sentirte cerca, Nala se gira, te mira con cara de travesura máxima, te guiña un ojo, ¡y se lanza de cabeza hacia el nuevo mundo!
+        Cuando llegan al umbral, Nala ya está del otro lado, asomando solo la cabeza entre las luces. Al sentirte cerca, Nala se gira, te mira con cara de travesura máxima, ¡y se lanza de cabeza hacia el nuevo mundo!
 
-        Ahora solo quedáis tú y Kiara frente al portal que reemplazó tu puerta.
+        Ahora solo quedáis tú y Kiara frente al portal en medio de la habitación.
         """,
         "opciones": [
             {"texto": "😥 Suspirar y cruzar tras ella", "destino": "mundo_gatuno"},
-            {"texto": "🚪 Cerrar la puerta de golpe y fingir demencia", "destino": "final_cobarde"},
+            {"texto": "🚪 Fingir demencia", "destino": "final_cobarde"},
         ]
     },
 
@@ -164,7 +164,7 @@ historia = {
         "texto": """
         Sacas las abejitas de crochet y las mueves un poco. Los ojos de los guardias se dilatan al instante. Su disciplina militar se derrumba.
 
-        "¡Es... es artesanía humana de alta calidad!", grita uno.
+        "¡Es... es artesanía del reino humano!", grita uno.
 
         Lanzas las abejitas lejos. Los guardias salen corriendo tras ellas, rodando felices por el suelo. El camino está libre. Nala, Kiara y tú corréis hacia el Castillo.
         """,
@@ -327,7 +327,7 @@ historia = {
         "titulo": "Final: La Realidad Decepcionante",
         "imagen": "final_escoba.jpg",
         "texto": """
-        Intentas pescar a Nala lanzando un juguete a través del umbral, pero rebota. La luz se apaga de golpe y la puerta vuelve a mostrar el pasillo aburrido de siempre. 
+        Intentas pescar a Nala lanzando un juguete a través del umbral, pero rebota. La luz se apaga de golpe y el portal desaparece. 
         
         Nala aparece caminando desde el baño como si nada. Todo fue una alucinación por ver TikToks hasta tan tarde.
         """,
@@ -337,7 +337,7 @@ historia = {
         "titulo": "Final: La Duda Eterna",
         "imagen": "final_te_sofa.jpg",
         "texto": """
-        Cierras la puerta de la habitación de golpe. Te apoyas contra ella, con el corazón a mil. 
+        Elegis ignorar todo pensando que es un mal viaje y nada mas. El corazón a mil pero decidis ir a pedir ayuda alguien en tu casa. 
         
         Mejor no saber qué había del otro lado. Te vas a dormir, pero siempre te preguntarás por qué tus gatas te miran a veces como si fueras una reina que renunció a su corona.
         """,
